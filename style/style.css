@@ -1,12 +1,13 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 /* header */
 .header {
     font-size: 24px;
     font-weight: bold;
     margin-top: 87px;
-    margin-left: 120px;
+    margin-left: 290px;
     margin-right: 1077px;
 }
 .container{
@@ -17,7 +18,7 @@ body{
 }
 .left{
     margin-top: 145px;
-    margin-left: 120px;
+    margin-left: 290px;
 }
 .left h1{
     width: 582px;
@@ -32,7 +33,7 @@ body{
 .half-width img{
     width: 440px;
     height: 414px;
-    margin-left: 218px;
+    margin-left: 364px;
     margin-top: 60px;
 }
 .btn{
@@ -50,4 +51,75 @@ body{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
+}
+
+/* product style */
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 45px;
+    width: 1047px;
+    height: 1662px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.product{
+    width: 329px;
+    height: 476px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 15px;
+}
+.product-banner{
+    width: 300px;
+    height: 256px;
+}
+.rating{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: #FB8200;
+}
+.see-more{
+    position: absolute;
+    left: 1732px;
+    top: 2379px;
+}
+.see-more .btnn{
+    width: 102px;
+    height: 24px;
+    color: #E02C6D;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+/* footer */
+.foot{
+    background: #0A0826;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-top: 93px;
+}
+.foot h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.foot p{
+    font-size: 20px;
+}
+
+.logos{
+    color: whitesmoke;
+    font-size: 35px;
+    margin-left: 10px;
+    /* margin-right: 2px; */
 }
